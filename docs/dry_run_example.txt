@@ -1,0 +1,6 @@
+# python nat_rotator.py --network 100.10.10.0/29 --dry-run
+INFO 6 usable addresses in 100.10.10.0/29 saved to ip_pub.txt
+WARNING Internet down: moving pool NET to 100.10.10.1 (attempt 1/5)
+[dry-run] clear ip nat translation *
+[dry-run] show running-config | include ip nat pool NET
+[dry-run] (config) ip nat pool NET 100.10.10.1 100.10.10.1 netmask 255.255.255.248

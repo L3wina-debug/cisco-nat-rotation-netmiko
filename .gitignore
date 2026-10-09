@@ -1,0 +1,19 @@
+# Runtime files
+ip_pub.txt
+ip_util.txt
+*.log
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
